@@ -1,0 +1,140 @@
+body{
+    background: #E5E5E5; 
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+
+}
+.logo{
+   margin-top: 1%;
+   margin-left: 5%;
+   float: inherit;
+}
+.titulo{
+    float:inherit;
+    margin-left: 15% ;
+}
+main{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background: #E5E5E5; 
+}
+section{
+    height: 100%;
+
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background: #E5E5E5;
+}
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+}
+.input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 120% ;
+
+}
+::placeholder{ color: #0A3871; }
+  .input:focus{
+    outline: none;
+}
+.division{
+    margin-bottom: 10px;
+    width: 80%;
+    height: 80%;
+}
+#imagenMuñeco{
+    margin-top: 20%;
+    margin-left: 4%;
+    width: 90%;
+    height: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+#mensajeCaja{
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+}
+
+#mensajeParrafo{
+    float: left;
+    margin-left: 10%;
+    color:#0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    text-align:justify ;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+#botonEncriptar{
+    padding: 24px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60%;
+    width: 30%;
+    text-align: center;
+    margin-left: 15%;
+}
+#botonDesencriptar{
+    padding: 24px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60%;
+    width: 30%;
+    text-align: center;
+}
+
+#copiar{
+    padding: 24px;
+    margin-left: 33%;
+    background: #d8dfd8;
+    border: 1px solid #0A3871;
+    border-radius: 32px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 10%;
+    width: 40%;
+    margin-top: 90%;
+    text-align: center;
+    display: none;
+}
+.informacion{
+    padding-top: 2%;   
+    color: #495057;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 2%;
+}

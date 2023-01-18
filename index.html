@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Challenge Alura 1 Encriptador </title>
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+
+    <body>
+            <header>
+                <img src="Vector.png" alt="logo ALura" class="logo" >
+                <h1 class="titulo">Encriptador de mensajes</h1>
+            </header>
+            <main>
+                <section class="left">
+                    <div class="division">
+                       <input type="text" id="textoEncriptado" class="input" placeholder="Ingrese texto aquí">
+                   </div>
+                    <div  class="informacion">
+                        <p> Sólo letras minusculas y sin acento </p>
+                    </div>
+                    <div>
+                        <button type="button" id="botonEncriptar" onclick="encriptar()" > Encriptar </button>
+                        <button type="button" id="botonDesencriptar" onclick="desencriptar()"> Desencriptar </button>
+                    </div>
+                </section>
+                <section class="right">
+                    <div>
+                        <img src="Muñeco.png" alt="alegoría a buscar" id="imagenMuñeco">
+                        <h2 id="mensajeCaja"> No se ha encontrado ningún mensaje</h2>
+                        <textarea id="mensajeParrafo"> Ingresa el texto que desees encriptar o desencriptar </textarea>
+                    </div>
+
+                    <div>
+                        <button type="button" id="copiar" onclick="copy()"> Copiar </button>
+                    </div>
+                </section>
+            </main>
+    </body>
+
+</html>
